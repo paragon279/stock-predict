@@ -12,19 +12,23 @@
 - [Optional] Right-click Solution 'stockast' in the Solution Explorer and select `Retarget solution`
 - Build and run!
 
+
 #### Linux
 ```shell
 make
 ```
 Type make clean to clean object files and the executable.
 
+
 ### Run Instructions
+
 #### Windows
 Simply run from Visual Studio or double-click the executable created inside x64\{config}\stockast.exe.
 
 By default, the program will try and utilize the maximum system threads available. To use a specific number of threads, set the environment variable OMP_NUM_THREADS equal to the number of threads you want.
 
 #### Linux
+
 Set the number of threads to be used for computation:
 ```shell
 export OMP_NUM_THREADS=number_of_threads
